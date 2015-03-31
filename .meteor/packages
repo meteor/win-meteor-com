@@ -7,3 +7,5 @@
 meteor-platform
 autopublish
 insecure
+simple:markdown-templating
+twbs:bootstrap

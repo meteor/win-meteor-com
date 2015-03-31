@@ -3,9 +3,23 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <br />
 
-  {{> hello}}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="jumbotron text-center">
+          <h1>Meteor on Windows</h1>
+
+          <p>Starting with release 1.1, Meteor works natively on Windows.</p>
+
+          <a class="btn btn-primary btn-lg" href="https://www.meteor.com/install">Install Meteor</a>
+        </div>
+
+        {{> content}}
+      </div>
+    </div>
+  </div>
 </body>
 
 <template name="hello">
